@@ -18,10 +18,11 @@ function computeX(d, i) {
 }
 
 function computeHeight(d, i) {
-    return i * 20 + 20 // TODO
+    return d.pop / 3484459.59// TODO
 }
 
 function computeColor(d, i) {
+    if(d.name == 'USA'){ return 'blue'}
     return 'red' // TODO
 }
 
