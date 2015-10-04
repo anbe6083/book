@@ -56,7 +56,7 @@
     <body>
         <!-- body:start -->
         
-    <div class="book" data-level="1.7.3" data-basepath="../.." data-revision="Fri Oct 02 2015 22:08:59 GMT-0600 (MDT)">
+    <div class="book" data-level="1.7.3" data-basepath="../.." data-revision="Sun Oct 04 2015 17:24:18 GMT-0600 (MDT)">
     
 
 <div class="book-summary">
@@ -1283,34 +1283,2073 @@ The star rating of the first Evernote app is: 4.6</p>
   &quot;verc&quot;: &quot;9559&quot;,
   &quot;id&quot;: &quot;com.popular</pre>
 
-<p>The Apps Title creator is:  and the title is: </p>
+<table>
+ <tr>
+   <th>Title</th>
+   <th>Creator</th>
+ </tr>
+
+   <tr>
+       <td>myCalendar - Period Tracker</td>
+       <td>ABISHKKING</td>
+   </tr>
+
+   <tr>
+       <td>Bible</td>
+       <td>LifeChurch.tv</td>
+   </tr>
+
+   <tr>
+       <td>ColorNote Notepad Notes</td>
+       <td>Notes</td>
+   </tr>
+
+   <tr>
+       <td>Walk Band - Music Studio</td>
+       <td>Revontulet Soft Inc</td>
+   </tr>
+
+   <tr>
+       <td>LEO Privacy Guard - AppLock</td>
+       <td>Leomaster</td>
+   </tr>
+
+   <tr>
+       <td>BMX Boy</td>
+       <td>Runner Games</td>
+   </tr>
+
+   <tr>
+       <td>Jewels Star</td>
+       <td>ITREEGAMER</td>
+   </tr>
+
+   <tr>
+       <td>Spider-Man Unlimited</td>
+       <td>Gameloft</td>
+   </tr>
+
+   <tr>
+       <td>GO Weather Forecast &amp; Widgets</td>
+       <td>GO Launcher EX</td>
+   </tr>
+
+   <tr>
+       <td>Brightest Flashlight Free &#xAE;</td>
+       <td>GoldenShores Technologies, LLC</td>
+   </tr>
+
+   <tr>
+       <td>SHAREit - Connect &amp; Transfer</td>
+       <td>SHAREit Technologies Co.Ltd</td>
+   </tr>
+
+   <tr>
+       <td>Zello PTT Walkie Talkie</td>
+       <td>Zello Inc</td>
+   </tr>
+
+   <tr>
+       <td>Pixlr &#x2013; Free Photo Editor</td>
+       <td>Autodesk Inc.</td>
+   </tr>
+
+   <tr>
+       <td>Antivirus Booster &amp; Cleaner</td>
+       <td>PSafe Tecnologia S.A.</td>
+   </tr>
+
+   <tr>
+       <td>Skater Boy</td>
+       <td>Runner Games</td>
+   </tr>
+
+   <tr>
+       <td>Ice Age Village</td>
+       <td>Gameloft</td>
+   </tr>
+
+   <tr>
+       <td>GO Keyboard Lite + Emoji</td>
+       <td>GO Dev Team</td>
+   </tr>
+
+   <tr>
+       <td>AntiVirus FREE - Security Scan</td>
+       <td>AVG Mobile</td>
+   </tr>
+
+   <tr>
+       <td>GO SMS Pro</td>
+       <td>GO Dev Team</td>
+   </tr>
+
+   <tr>
+       <td>Despicable Me</td>
+       <td>Gameloft</td>
+   </tr>
+
+   <tr>
+       <td>MX Player</td>
+       <td>J2 Interactive</td>
+   </tr>
+
+   <tr>
+       <td>eBay</td>
+       <td>eBay Mobile</td>
+   </tr>
+
+   <tr>
+       <td>Smart Connect</td>
+       <td>Sony Mobile Communications</td>
+   </tr>
+
+   <tr>
+       <td>Lookout Security &amp; Antivirus</td>
+       <td>Lookout Mobile Security</td>
+   </tr>
+
+   <tr>
+       <td>Tango - Free Video Call &amp; Chat</td>
+       <td>Tango</td>
+   </tr>
+
+   <tr>
+       <td>Evernote</td>
+       <td>Evernote Corporation</td>
+   </tr>
+
+   <tr>
+       <td>Super-Bright LED Flashlight</td>
+       <td>Surpax Inc.</td>
+   </tr>
+
+   <tr>
+       <td>Omni Swipe</td>
+       <td>Holaverse Group</td>
+   </tr>
+
+   <tr>
+       <td>Samsung Print Service Plugin</td>
+       <td>Samsung Electronics</td>
+   </tr>
+
+   <tr>
+       <td>Drag Racing</td>
+       <td>Creative Mobile</td>
+   </tr>
+
+</table>
+
 <h2 id="8-find-apps-whose-content-rating-is-teen-but-not-categorized-in-any-of-the-following-categories-card-entertainment-comics-and-puzzle">8- Find apps whose content rating is Teen but not categorized in any of the following categories: Card, Entertainment, Comics, and Puzzle?</h2>
-<p><div class="mongodb"><h4>mongodb query</h4><pre><code></code></pre></div></p>
-<pre style="font-size:11px;line-height:1;max-height:300px;">&quot;&quot;</pre>
+<p><div class="mongodb"><h4>mongodb query</h4><pre><code>{&quot;$and&quot;: [
+{&quot;crat&quot;: &quot;Teen&quot;}, {&quot;cat&quot;: {&quot;$nin&quot;: [
+&quot;Card&quot;, &quot;Entertainment&quot;, &quot;Comics&quot;, &quot;Puzzle&quot;]}}   
+         ] }</code></pre></div></p>
+<pre style="font-size:11px;line-height:1;max-height:300px;">[
+ {
+  &quot;_id&quot;: &quot;56044569703498dd2a525111&quot;,
+  &quot;cadd&quot;: &quot;9450 SW Gemini Dr #60274\nBeaverton, OR 97008-7105&quot;,
+  &quot;cat&quot;: &quot;Sports&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;Conjugo LLC&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=Conjugo+LLC&quot;,
+  &quot;dct&quot;: 10000,
+  &quot;desc&quot;: &quot;Get the latest Atlanta Braves news, videos, photos, social media updates, podcasts, matchup tool, scores, team store and chat with Braves fans in this all in one unofficial FREE fan app!&quot;,
+  &quot;dtp&quot;: &quot;May 23, 2015&quot;,
+  &quot;dtxt&quot;: &quot;10,000 - 50,000&quot;,
+  &quot;n&quot;: &quot;com.andromo.dev86290.app221279&quot;,
+  &quot;new&quot;: &quot;- Bug fixes - Fan bars map - Other apps&quot;,
+  &quot;os&quot;: &quot;2.3.3 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;https://www.google.com/url?q=http://www.conjugo.com/privacy.php&amp;sa=D&amp;usg=AFQjCNGT5MyF9MV19LHSVyd8JETMWq3yew&quot;,
+  &quot;rate&quot;: 4.1,
+  &quot;rct&quot;: 75,
+  &quot;sz&quot;: &quot;4.3M&quot;,
+  &quot;t&quot;: &quot;Atlanta Baseball&quot;,
+  &quot;verc&quot;: &quot;1843&quot;,
+  &quot;id&quot;: &quot;com.andromo.dev86290.app221279-1843&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044569703498dd2a525145&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Lifestyle&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;AnDworks&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=AnDworks&quot;,
+  &quot;dct&quot;: 1000,
+  &quot;desc&quot;: &quot;&#xBB38;&#xC790;&#xBA54;&#xC2DC;&#xC9C0;&#xC5D0; &#x2018;&#xC8FC;&#xC11D;&#x2019;&#xC744; &#xD5C8;&#xD558;&#xB77C;! &#xC57D;&#xC18D;&#xC7A5;&#xC18C; &#xD558;&#xB098; &#xC815;&#xD558;&#xB294;&#xB370; &#xD1A1;&#xD1A1;&#xD558;&#xB2E4;, &#xAC80;&#xC0C9;&#xAC14;&#xB2E4;, &#xC815;&#xBCF4;&#xC571;&#xAC14;&#xB2E4;, &#xC9C0;&#xB3C4;&#xAC14;&#xB2E4;, &#xBD88;&#xD3B8;&#xD558;&#xC9C0; &#xC54A;&#xC73C;&#xC168;&#xB098;&#xC694;? &#xC774;&#xC81C; &#xBA54;&#xC2E0;&#xC800; &#xD558;&#xB098;&#xB9CC; &#xC5F4;&#xC5B4; &#xD544;&#xC694;&#xD55C; &#xAD00;&#xB828;&#xC815;&#xBCF4;, &#xADF8; &#xC790;&#xB9AC;&#xC5D0;&#xC11C; &#xAC80;&#xC0C9;&#xD558;&#xAC70;&#xB098; &#xB69D;&#xB531; &#xB9CC;&#xB4E4;&#xC5B4;&#xC11C;  &#xB2E8;&#xC5B4;&#xC5D0; &#xD558;&#xC774;&#xD37C;&#xD14D;&#xC2A4;&#xD2B8;&#xB85C; &#xB2EC;&#xC544; &#xB611;&#xB611;&#xD558;&#xAC8C; &#xBCF4;&#xB0C5;&#xC2DC;&#xB2E4;. SMS, MMS&#xB97C; &#xB118;&#xC5B4;,  &#xD558;&#xC774;&#xD37C;&#xB178;&#xD2B8; &#xBA54;&#xC2E0;&#xC800;- HMS  * &#xB274;&#xC2A4;, &#xBE14;&#xB85C;&#xADF8;, &#xC0AC;&#xC804; &#xB4F1; &#xD3EC;&#xD0C8;&#xC815;&#xBCF4; &#xAC80;&#xC0C9;&#xD574; &#xB123;&#xAE30;  * &#xC9C1;&#xC811; &#xBAA8;&#xBC14;&#xC77C; &#xC6F9;&#xD398;&#xC774;&#xC9C0;&#xB97C; &#xB9CC;&#xB4DC;&#xB294; &#xCF58;&#xD150;&#xCE20; &#xD3B8;&#xC9D1;&#xAE30;   * PC&#xC5D0; &#xC788;&#xB294; &#xC815;&#xBCF4;&#xB97C; &#xAC00;&#xC838;&#xC624;&#xB294; &#xD074;&#xB9BD;&#xBCF4;&#xB4DC;&#xC11C;&#xBE44;&#xC2A4;  * &#xC778;&#xD130;&#xB137;&#xAC80;&#xC0C9;&#xC744; &#xC704;&#xD55C; &#xC778;&#xC571;&#xBE0C;&#xB77C;&#xC6B0;&#xC800;   * &#xB0B4;&#xAC8C; &#xD544;&#xC694;&#xD55C; &#xC8FC;&#xC11D;&#xC744; &#xBCF4;&#xAD00;&#xD558;&#xB294; &#xB0B4;&#xB9C1;&#xD06C;&#xD568;  * &#xB9CC;&#xB4E0; &#xC815;&#xBCF4;&#xB97C; &#xACF5;&#xAC1C;&#xD558;&#xBA74; &#xBAA8;&#xBC14;&#xC77C; &#xBE14;&#xB85C;&#xAC70;   * &#xAC80;&#xC0C9;&#xC5D4;&#xC9C4;&#xC5D0; &#xB098;&#xD0C0;&#xB098;&#xC9C0; &#xC54A;&#xB294; &#xC5B4;&#xD50C; &#xC548; &#xCF58;&#xD150;&#xCE20; &#xAC80;&#xC0C9; &#xD234;  * &#xC678;&#xBD80; &#xBA54;&#xC2E0;&#xC800;&#xB85C; &#xB0B4;&#xBCF4;&#xB0B4;&#xAE30;  * &#xAC80;&#xC0C9;&#xAD11;&#xACE0;&#xB97C; &#xC704;&#xD55C; &#xBAA8;&#xBC14;&#xC77C; &#xC624;&#xBC84;&#xCD94;&#xC5B4;&quot;,
+  &quot;dtp&quot;: &quot;July 9, 2015&quot;,
+  &quot;dtxt&quot;: &quot;1,000 - 5,000&quot;,
+  &quot;n&quot;: &quot;com.andworks.hms&quot;,
+  &quot;new&quot;: &quot;Version. 1.1.0 [&#xC218;&#xC815; &#xC0AC;&#xD56D;] * &#xAE30;&#xAE30;&#xBCC4; &#xCD5C;&#xC801;&#xD654; &#xBC0F; &#xBC84;&#xADF8; &#xC218;&#xC815;&quot;,
+  &quot;os&quot;: &quot;2.3.3 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;&quot;,
+  &quot;rate&quot;: 4.6,
+  &quot;rct&quot;: 24,
+  &quot;sz&quot;: &quot;7.0M&quot;,
+  &quot;t&quot;: &quot;HMS - &#xAC80;&#xC0C9;, &#xC815;&#xBCF4;, &#xB300;&#xD654;&#xB97C; &#xD55C;&#xBC88;&#xC5D0;!  &#xD1B5;&#xD569;&#xBA54;&#xC2E0;&#xC800;&quot;,
+  &quot;verc&quot;: &quot;7635&quot;,
+  &quot;id&quot;: &quot;com.andworks.hms-7635&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044569703498dd2a52517c&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Simulation&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;BroadcastFarer&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=BroadcastFarer&quot;,
+  &quot;dct&quot;: 10000,
+  &quot;desc&quot;: &quot;elephant simulator mania This is a fun simulator! Destroys everything A Giant Elephant rampaging in the city. Explore a 3D city with a giant elephant hitting and exploding. These Elepahnts are super strong and love to create chaos. Smash cars, tractors, goats, planes, fire hydrants, people, men,women,wheels, quad bikes, and anything else not attached to the ground.  This is a fun simulator! Destroys everything!  Top Game Features: ** Hunt down animals to collect meat units ** Rabbits, Ducks, Bats, Deer, Wild Dogs, Horses, Eagles, Crocodiles, and Wolf. ** 3 Different Times of Day, including rain ** Massive Open World 3D Map ** Upgrade your Puma Speed, Strength, and Stamina. Survive against the elements for as long as you can in the high action wild animal simulator. The secret to the game is survival. There are 2 goals. First, you must rescue all your family members. Second, you must try and defeat all 4 of the giant bosses. In the meantime, you must hunt down your next meal to earn meat points for animal upgrades. When you face off with a giant boss, don&apos;t forget to call on your family members for assistance by using the call button. The faster you go and the more destruction you cause the higher you score!&quot;,
+  &quot;dtp&quot;: &quot;June 27, 2015&quot;,
+  &quot;dtxt&quot;: &quot;10,000 - 50,000&quot;,
+  &quot;n&quot;: &quot;com.animalsimulator.mania.Elephant&quot;,
+  &quot;new&quot;: &quot;&quot;,
+  &quot;os&quot;: &quot;2.3 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;&quot;,
+  &quot;rate&quot;: 3.1,
+  &quot;rct&quot;: 212,
+  &quot;sz&quot;: &quot;35M&quot;,
+  &quot;t&quot;: &quot;Elephant Simulator Mania&quot;,
+  &quot;verc&quot;: &quot;8016&quot;,
+  &quot;id&quot;: &quot;com.animalsimulator.mania.Elephant-8016&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044569703498dd2a52517d&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Simulation&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;BroadcastFarer&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=BroadcastFarer&quot;,
+  &quot;dct&quot;: 50000,
+  &quot;desc&quot;: &quot;sabertooth tiger RPG Use your razor sharp claws and massive teeth to hunt down Always wanted to be a predator? Start as a newbie saber-tooth tiger and evolve to a real terror of the wild! At first you will be able to hunt only weak animals like rams and sheep. But after you evolve you will be able to hunt down tigers, panthers and huge spiders! Explore a huge custom-built terrain!  Every time you play the game it will be a different experience. The animals, weather, and time of day is constantly changing. When you hunt, you will earn meat units. These meat units can be used to purchase upgrades for your Crocodile. A special feature in the app allows you to keep a record of your hunting success. Challenge your fighting skills against 6 different 3 on 1 battles. Be prepared for a flight for survival. You either win or loose. Introducing unlimited missions and over two dozen achievements to give you a boost of experience! With the level cap increased to 200, you&#x2019;ll need all the help you can get! Ready to put your sabertooth to the test? Enter into combat with 4 deadly bosses that will push you to your limits! Succeed in slaying them and your rewards will be plentiful!&quot;,
+  &quot;dtp&quot;: &quot;July 11, 2015&quot;,
+  &quot;dtxt&quot;: &quot;50,000 - 100,000&quot;,
+  &quot;n&quot;: &quot;com.animalsi</pre>
 
-<p>There are  apps.</p>
+<p>There are 1520 apps.</p>
 <h2 id="9-find-the-title-category-download-count-and-star-rating-of-apps-with-the-phrase-in-app-purchase-in-their-description-and-download-count-greater-than-10-000-000">9- Find the title, category, download count, and star rating of apps with the phrase &quot;in-app purchase&quot; in their description and download count greater than 10,000,000?</h2>
-<p><div class="mongodb"><h4>mongodb query</h4><pre><code></code></pre></div></p>
-<pre style="font-size:11px;line-height:1;max-height:300px;">&quot;&quot;</pre>
+<p><div class="mongodb"><h4>mongodb query</h4><pre><code>{&quot;$and&quot;: [{&quot;$text&quot;: {&quot;$search&quot;:&quot;in-app purchase&quot;}}, {&quot;dct&quot;: {&quot;$gt&quot;: 10000000}} ]}</code></pre></div></p>
+<pre style="font-size:11px;line-height:1;max-height:300px;">[
+ {
+  &quot;_id&quot;: &quot;56044593703498dd2a528819&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Shopping&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;eBay Mobile&quot;,
+  &quot;curl&quot;: &quot;/store/apps/dev?id=6005619443614255030&quot;,
+  &quot;dct&quot;: 100000000,
+  &quot;desc&quot;: &quot;The eBay app is packed full of features that make it easy to browse, buy, sell and manage your eBay experience whenever and wherever you are! With eBay mobile you can: &#x2713; Search, Bid, Buy or Make offers on unique items from sellers worldwide &#x2713; List your items for sale on eBay in minutes &#x2713; Use the barcode scanner to find items, compare prices or start a new listing &#x2713; Get customizable alerts about your eBay items and activity &#x2713; Track your packages &#x2713; Leave feedback &#x2713; Read and respond to eBay messages &#x2713; Follow your favorite searches and sellers for quick access to the latest inventory &#x2713; Revise your listings and manage your eBay business on the go &#x2713; So much more. We&#x2019;ll stop here so you can start shopping now _____________________________________ LANGUAGE SUPPORT English, French, Italian, German, Spanish, Portuguese, Russian, Polish, Dutch (Belgium and Netherlands) _____________________________________ KEEP IN TOUCH Thanks to all our loyal fans for your support and suggestions!  Your feedback is important to us. Please contact us with any questions by tweeting @askebay or join the discussion at www.ebay.com/android _____________________________________ PERMISSIONS We know it can be a little scary to see applications requesting permission to access areas of your device functionality, so we&apos;re trying to be as transparent as possible. Here are some answers to common questions about what we do with these permissions: YOUR ACCOUNTS: We need access to the account associated with your device so that we can send you push notifications.  SYSTEM TOOLS: This allows us to wake up the device in order to send you notifications. The device will return to sleep mode automatically. LOCATION: We surface more relevant search results to you based on your location.  NETWORK COMMUNICATION: Share items with friends or good looking strangers using NFC. Just enable NFC in your device settings, then hold your phone up to someone else&apos;s and \&quot;Beam\&quot; your item to them!  CAMERA: Allows you to scan barcodes for comparison shopping or to start a new listing, to take photos of an item you&apos;re listing, and to attach photos to an eBay message.&quot;,
+  &quot;dtp&quot;: &quot;September 10, 2015&quot;,
+  &quot;dtxt&quot;: &quot;100,000,000 - 500,000,000&quot;,
+  &quot;n&quot;: &quot;com.ebay.mobile&quot;,
+  &quot;new&quot;: &quot;eBay 4.0 for Android is designed to simplify buying and selling, and place the best of eBay front and center. We&#x2019;ve redesigned navigation, bidding and search, and built a brand new home screen with three personalized channels: &#x2022;\tActivity: Quick access and timely updates to the things that matter to you &#x2022;\tShop: Browse a blend of curated and personalized items by department &#x2022;\tSell: Tools and tips to start listing in minutes or manage your listings on the go&quot;,
+  &quot;os&quot;: &quot;Varies with device&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;https://www.google.com/url?q=http://ebay.to/1ur6UQ4&amp;sa=D&amp;usg=AFQjCNH5FTyPcp8f6rOl2U_869Ge-akEuQ&quot;,
+  &quot;rate&quot;: 4.2,
+  &quot;rct&quot;: 1479432,
+  &quot;sz&quot;: &quot;Varies with device&quot;,
+  &quot;t&quot;: &quot;eBay&quot;,
+  &quot;verc&quot;: &quot;1074&quot;,
+  &quot;id&quot;: &quot;com.ebay.mobile-1074&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044593703498dd2a528f76&quot;,
+  &quot;cadd&quot;: &quot;Gameloft S.E\n14 rue Auber,\n75009 Paris,\nFrance&quot;,
+  &quot;cat&quot;: &quot;Casual Action &amp; Adventure&quot;,
+  &quot;crat&quot;: &quot;Everyone 10+&quot;,
+  &quot;crt&quot;: &quot;Gameloft&quot;,
+  &quot;curl&quot;: &quot;/store/apps/dev?id=6258770168633898802&quot;,
+  &quot;dct&quot;: 100000000,
+  &quot;desc&quot;: &quot;Experience the brand-new Despicable Me: Minion Rush! Gru&#x2019;s loyal, yellow, mischievous Minions are ready for their tastiest challenge yet: Collecting exotic fruits to make yummy jelly! Jump, roll, dodge and scramble against others in fun, fast-paced missions.   ALL THE FUN AND ANTICS OF DESPICABLE ME &#x2022; Enjoy unpredictably hilarious Minion moments  &#x2022; Perform despicable acts through hundreds of missions &#x2022; Run through iconic locations that are full of surprises, secrets and tricky obstacles: Gru&#x2019;s Lab, Gru&#x2019;s Residential Area, El Macho&#x2019;s Lair, Minion Beach and Super Silly Fun Land from Despicable Me &#x2022; Customize your Minion with unique costumes, weapons, and power-ups &#x2022; Battle Vector, El Macho, the Villaintriloquist and all the new villains exclusively created for the game AN INNOVATIVE AND ORIGINAL GAME &#x2022; Encounter secret areas, unique boss fights and amazing power-ups  &#x2022; Experience custom animation and voice-overs, and state-of-the-art 3D graphics &#x2022; Enjoy multiple dynamic camera angles  &#x2022; Engage in various bonus gameplay modes:     &#x2192; Destroy things as Mega Minion    &#x2192; Collect bananas while riding the Fluffy Unicorn    &#x2192; Hang on to Gru&#x2019;s Rocket for the ride of your life    &#x2192; Unlock a new Power-Up and get ready for a Mission to the Moon! &#x2022; Have fun with your friends! See their best scores during your run, send them funny Minion taunts and challenges to show them who&#x2019;s going to win Minion of the Year! ______________________________________________ You can download and play this game for free. Please be inform</pre>
 
-<p>There are  apps.</p>
+<table>
+ <tr>
+   <th>Title</th>
+   <th>Address</th>
+   <th>Download Count</th>
+   <th>Star Rating</th>
+ </tr>
+
+   <tr>
+       <td>eBay</td>
+       <td>Shopping</td>
+       <td>100000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Despicable Me</td>
+       <td>Casual Action &amp; Adventure</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Evernote</td>
+       <td>Productivity</td>
+       <td>100000000</td>
+       <td>4.6</td>
+   </tr>
+
+   <tr>
+       <td>Lookout Security &amp; Antivirus</td>
+       <td>Tools</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Zello PTT Walkie Talkie</td>
+       <td>Social</td>
+       <td>50000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Spider-Man Unlimited</td>
+       <td>Action</td>
+       <td>50000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Brightest Flashlight Free &#xAE;</td>
+       <td>Tools</td>
+       <td>50000000</td>
+       <td>4.7</td>
+   </tr>
+
+   <tr>
+       <td>Samsung Push Service</td>
+       <td>Communication</td>
+       <td>500000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Bible</td>
+       <td>Books &amp; Reference</td>
+       <td>50000000</td>
+       <td>4.6</td>
+   </tr>
+
+   <tr>
+       <td>Ice Age Village</td>
+       <td>Casual</td>
+       <td>50000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Samsung Print Service Plugin</td>
+       <td>Productivity</td>
+       <td>100000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>ColorNote Notepad Notes</td>
+       <td>Productivity</td>
+       <td>50000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>myCalendar - Period Tracker</td>
+       <td>Health &amp; Fitness</td>
+       <td>50000000</td>
+       <td>4.7</td>
+   </tr>
+
+   <tr>
+       <td>SHAREit - Connect &amp; Transfer</td>
+       <td>Tools</td>
+       <td>50000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Omni Swipe</td>
+       <td>Productivity</td>
+       <td>100000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>AntiVirus FREE - Security Scan</td>
+       <td>Communication</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Smart Connect</td>
+       <td>Tools</td>
+       <td>100000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Antivirus Booster &amp; Cleaner</td>
+       <td>Tools</td>
+       <td>50000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>GO Keyboard Lite + Emoji</td>
+       <td>Productivity</td>
+       <td>50000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>GO Weather Forecast &amp; Widgets</td>
+       <td>Weather</td>
+       <td>50000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>Walk Band - Music Studio</td>
+       <td>Music &amp; Audio</td>
+       <td>50000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>GO SMS Pro</td>
+       <td>Communication</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>LEO Privacy Guard - AppLock</td>
+       <td>Tools</td>
+       <td>50000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>MX Player</td>
+       <td>Media &amp; Video</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+</table>
+
 <h2 id="10-find-the-title-and-address-of-the-creator-of-apps-with-download-count-greater-than-1-000-000-and-star-rating-greater-than-4-5">10- Find the title and address of the creator of apps with download count greater than 1,000,000 and star rating greater than 4.5?</h2>
 <p>Hint: ensure that the results include apps that have creator address (not equal &quot;&quot;)</p>
-<p><div class="mongodb"><h4>mongodb query</h4><pre><code></code></pre></div></p>
-<pre style="font-size:11px;line-height:1;max-height:300px;">&quot;&quot;</pre>
+<p><div class="mongodb"><h4>mongodb query</h4><pre><code>{&quot;$and&quot;: [{&quot;rate&quot;: {&quot;$gt&quot;: 4.5}}, {&quot;dct&quot;: {&quot;$gt&quot;: 1000000}} ]}</code></pre></div></p>
+<pre style="font-size:11px;line-height:1;max-height:300px;">[
+ {
+  &quot;_id&quot;: &quot;5604459c703498dd2a52988c&quot;,
+  &quot;cadd&quot;: &quot;500 Howard St. Suite 300\nSan Francisco CA 94105&quot;,
+  &quot;cat&quot;: &quot;Action&quot;,
+  &quot;crat&quot;: &quot;Unrated&quot;,
+  &quot;crt&quot;: &quot;Glu&quot;,
+  &quot;curl&quot;: &quot;/store/apps/dev?id=8633921029894576093&quot;,
+  &quot;dct&quot;: 5000000,
+  &quot;desc&quot;: &quot;Welcome to Blood &amp; Glory Legend &#x2013; the highly anticipated sequel to the AAA blockbuster smash-hit Blood &amp; Glory! Return to the arena and bask in the blood-hungry cheers of the crowd as you fight to become a LEGEND! &#x201C;Blood &amp; Glory: Legend still manages to be one of the premier fighting games on smartphones and tablets, with a plot thrown in for good measure.&#x201D; &#x2013; Game Trailers &#x201C;Fans of the first game should not be surprised to learn that this one looks amazing.&#x201D; &#x2013; Gamezeebo &#x201C;Visually, Blood &amp; Glory: Legend offers distinct improvements over its forerunner, with detailed environments, impressive combatants, and neat effects such as the blood patches that appear on the fighters as they receive damage.&#x201D; &#x2013; PocketGamer &#x201C;Graphics and sounds are bloody beautiful, making the most of nearly every device known. Overall, it&#x2019;s a great game that makes mobile gaming greater.&#x201D; &#x2013; Android Zoom &#x201C;The developers have really stepped up in the graphics department.&#x201D; &#x2013; Android Police &#x201C;Much-needed personality normally reserved for premium titles.&#x201D; &#x2013; MoDojo The top-rated gladiator combat game continues with Blood and Glory: Legend! Equip lethal weapons and epic armor in your quest to achieve blood-soaked victory over the Emperor himself! MOTION COMIC STORYLINE Journey through the Empire, leaving blood-thirsty bosses in your wake as the all new animated comic story unfolds! STUNNING &amp; AWARD-WINNING AAA GRAPHICS Experience bleeding-edge graphics so realistic that you will duck to avoid the splatter of blood! NEW MOVES &amp; STRATEGY Perfect your skills and unleash stunning Special Attacks, Super Combos and the all new Glorious Strike! Enemies can now perform unblockable and undodgeable attacks so choose your defenses wisely! DAILY BONUS! Come back every day to earn free money and equipment! Complete battles ever day to earn even larger Bonus rewards! NEW ARENAS AND ENEMIES Battle new towering Giants and seductive Claw Vixens to the death in the new Snake Den, Viking Ship, and Neptune Temple! Blood &amp; Glory: Legend is free to play, but you can choose to pay real money for some extra items. Use of this application is governed by Glu Mobile&#x2019;s Terms of Use. Collection and use of personal data are subject to Glu Mobile&#x2019;s Privacy Policy. Both policies are available at www.glu.com. Additional terms may also apply. FOLLOW US at Twitter @glumobile facebook.com/glumobile&quot;,
+  &quot;dtp&quot;: &quot;July 18, 2013&quot;,
+  &quot;dtxt&quot;: &quot;5,000,000 - 10,000,000&quot;,
+  &quot;n&quot;: &quot;com.glu.gladiator2&quot;,
+  &quot;new&quot;: &quot;&#x27A4; Win FREE Equipment and Demonstrate your battle prowess in 10 All New Challenge Battles (the brown banners on the Map Screen)! &#x27A4; Bug fixes and other improvements to game performance.&quot;,
+  &quot;os&quot;: &quot;2.1 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;https://www.google.com/url?q=http://www.glu.com/privacy&amp;sa=D&amp;usg=AFQjCNF7XANVJOJ3yOzV7ujS46miEuS0Xg&quot;,
+  &quot;rate&quot;: 4.6,
+  &quot;rct&quot;: 403933,
+  &quot;sz&quot;: &quot;320M&quot;,
+  &quot;t&quot;: &quot;BLOOD &amp; GLORY: LEGEND&quot;,
+  &quot;verc&quot;: &quot;962&quot;,
+  &quot;id&quot;: &quot;com.glu.gladiator2-962&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;5604459c703498dd2a529890&quot;,
+  &quot;cadd&quot;: &quot;500 Howard St. Suite 300\nSan Francisco CA 94105&quot;,
+  &quot;cat&quot;: &quot;Action&quot;,
+  &quot;crat&quot;: &quot;Unrated&quot;,
+  &quot;crt&quot;: &quot;Glu&quot;,
+  &quot;curl&quot;: &quot;/store/apps/dev?id=8633921029894576093&quot;,
+  &quot;dct&quot;: 5000000,
+  &quot;desc&quot;: &quot;The battle for Northern Udar rages on! It&apos;s been 100 years since the First Demon War tore the land apart. Thanks to the Eternity Warriors the demon threat was held at bay. However the demons have been consolidating their power in a series of Demon Towers built in locations throughout Northern Udar.  You&apos;ve been tasked with cleansing these Demon Towers and defeating an even deadlier demon army than before &#x2026;  REAL TIME PVP AND CO-OP MULTIPLAYER!  Battle against or alongside fellow warriors in ONLINE MULTIPLAYER MODES!  THE ULTIMATE DUNGEON CRAWLING ACTION GAME HITS YOUR ANDROID PHONE AND TABLET! &#x2022; STUNNING HIGH DEFINITION visuals and EPIC MELEE gameplay!  &#x2022; Fluid REAL-TIME COMBAT against dozens of NEW demon enemies!  &#x2022; ONLINE CO-OP MULTIPLAYER! Battle with a fellow warrior in the ONLINE MULTIPLAYER MODE!  &#x2022; Use your SPECIAL SKILLS to slice your way through MULTIPLE UNIQUE DUNGEONS! &#x2022; COLLECT ARMOR, WEAPONS and other LOOT! Upgrade your gear to become the ultimate Eternity Warrior in Udar! Eternity Warriors 2 is free to play, but you can choose to pay real money for some extra items. Use of this application is governed by Glu Mobile&#x2019;s Terms of Use. Collection and use of personal data are subject to Glu Mobile&#x2019;s Privacy Policy. Both policies are available at www.glu.com. Additional terms may also apply. FOLLOW US at Twitter @glumobile facebook.com/glumobile&quot;,
+  &quot;dtp&quot;: &quot;July 1, 2014&quot;,
+  &quot;dtxt&quot;: &quot;5,000,000 - 10,000,000&quot;,
+  &quot;n&quot;: &quot;com.glu.ewarriors2&quot;,
+  &quot;new&quot;: &quot;&#x25BA; Bug fixes and other improvements to game performance&quot;,
+  &quot;os&quot;: &quot;2.1 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;pur</pre>
 
-<p>There are  apps.</p>
+<table>
+ <tr>
+   <th>Title</th>
+   <th>Address</th>
+ </tr>
+
+   <tr>
+       <td>BLOOD &amp; GLORY: LEGEND</td>
+       <td>500 Howard St. Suite 300
+San Francisco CA 94105</td>
+   </tr>
+
+   <tr>
+       <td>ETERNITY WARRIORS 2</td>
+       <td>500 Howard St. Suite 300
+San Francisco CA 94105</td>
+   </tr>
+
+   <tr>
+       <td>SAMURAI vs ZOMBIES DEFENSE</td>
+       <td>500 Howard St. Suite 300
+San Francisco CA 94105</td>
+   </tr>
+
+   <tr>
+       <td>My Dolphin Show</td>
+       <td>Mussenstraat 15
+1223 RB Hilversum</td>
+   </tr>
+
+   <tr>
+       <td>Strava Running and Cycling GPS</td>
+       <td>Strava, Inc
+500 Third Street, Suite 110
+San Francisco, CA 94107</td>
+   </tr>
+
+   <tr>
+       <td>ElectroDroid</td>
+       <td>Reggio Calabria, Italy</td>
+   </tr>
+
+   <tr>
+       <td>Daily Bible</td>
+       <td>4880 Santa Rosa Rd
+Camarillo, CA 93012</td>
+   </tr>
+
+   <tr>
+       <td>Cartoon Wars: Gunner+</td>
+       <td>999 N Sepulveda Blvd, Ste 150, El Segundo, CA, United States</td>
+   </tr>
+
+   <tr>
+       <td>Diversion</td>
+       <td>Perth, Western Australia</td>
+   </tr>
+
+   <tr>
+       <td>Audiko ringtones</td>
+       <td>SOLEC 81B LOK A-51, Warsaw, Poland.</td>
+   </tr>
+
+   <tr>
+       <td>Paradise Island</td>
+       <td>Suite 05, 20th Floor, Tower One, Lippo Centre, 89 Queensway
+Hong Kong</td>
+   </tr>
+
+   <tr>
+       <td>BLOOD &amp; GLORY</td>
+       <td>500 Howard St. Suite 300
+San Francisco CA 94105</td>
+   </tr>
+
+   <tr>
+       <td>DragonFlight for Kakao</td>
+       <td>8F, 479, Gangnam-daero, Seocho-gu, Seoul
+06541</td>
+   </tr>
+
+   <tr>
+       <td>Football Scores - 365Scores</td>
+       <td>Zippora street, Dekk House
+Providence industrial estate
+Mahe
+Seychelles</td>
+   </tr>
+
+   <tr>
+       <td>GasBuddy - Find Cheap Gas</td>
+       <td>9737 Washingtonian Blvd, Suite 200
+Gaithersburg, MD 20878</td>
+   </tr>
+
+   <tr>
+       <td>myCalendar - Period Tracker</td>
+       <td>UNIT04&#xFF0C; 7/F, BRIGHT WAY TOWER, NO.33 MONG KOK ROAD , KOWLOON , HK</td>
+   </tr>
+
+   <tr>
+       <td>Bible</td>
+       <td></td>
+   </tr>
+
+   <tr>
+       <td>Brightest Flashlight Free &#xAE;</td>
+       <td></td>
+   </tr>
+
+   <tr>
+       <td>Evernote</td>
+       <td>305 Walnut Street
+Redwood City, CA 94063</td>
+   </tr>
+
+</table>
+
 <h2 id="11-find-the-title-category-download-count-and-rating-of-apps-with-download-count-of-1-000-000-or-more-but-have-no-privacy-ststements">11- Find the title, category, download count, and rating of apps with download count of 1,000,000 or more but have no privacy ststements?</h2>
-<p><div class="mongodb"><h4>mongodb query</h4><pre><code></code></pre></div></p>
-<pre style="font-size:11px;line-height:1;max-height:300px;">&quot;&quot;</pre>
+<p><div class="mongodb"><h4>mongodb query</h4><pre><code>{&quot;$and&quot;: [{&quot;purl&quot;: &quot;&quot;}, {&quot;dct&quot;: {&quot;$gt&quot;: 1000000}} ]}</code></pre></div></p>
+<pre style="font-size:11px;line-height:1;max-height:300px;">[
+ {
+  &quot;_id&quot;: &quot;56044572703498dd2a52576e&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Photography&quot;,
+  &quot;crat&quot;: &quot;Everyone&quot;,
+  &quot;crt&quot;: &quot;FunMedia Studio&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=FunMedia+Studio&quot;,
+  &quot;dct&quot;: 5000000,
+  &quot;desc&quot;: &quot;KlipMix is a great video maker&#xFF0C;It is  so easy use&#xFF0C;In one minute&#xFF0C;you can mix videos and photos together&#xFF0C;add your favorite music&#xFF0C;share with friends. Best of all&#xFF0C;it is all free&#xFF0C;and no watermark. Features: - Mix video and photo  together - Add video and photos quickly and easily - Easy gestures, unselect and reorder photos with touch and drag. - Add your favorite music  - Trim video - Modify display duration of each video and photo - Share videos with friends Any suggestion or problem you can send email to  xfunstudio@gmail.com Hope you enjoy this app&#xFF01;&quot;,
+  &quot;dtp&quot;: &quot;August 8, 2015&quot;,
+  &quot;dtxt&quot;: &quot;5,000,000 - 10,000,000&quot;,
+  &quot;n&quot;: &quot;com.movisoft.klips&quot;,
+  &quot;new&quot;: &quot;V2.7 1. Fix some bugs. 2. Optimize video exporting performance. V2.6 1. Improve slideshow making experience 2. Fix some bugs&quot;,
+  &quot;os&quot;: &quot;2.3 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;&quot;,
+  &quot;rate&quot;: 4.1,
+  &quot;rct&quot;: 120283,
+  &quot;sz&quot;: &quot;5.3M&quot;,
+  &quot;t&quot;: &quot;KlipMix - Free Video Maker&quot;,
+  &quot;verc&quot;: &quot;5928&quot;,
+  &quot;id&quot;: &quot;com.movisoft.klips-5928&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044572703498dd2a525930&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Lifestyle&quot;,
+  &quot;crat&quot;: &quot;Everyone&quot;,
+  &quot;crt&quot;: &quot;PXL APPS&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=PXL+APPS&quot;,
+  &quot;dct&quot;: 5000000,
+  &quot;desc&quot;: &quot;*** Prayer times and Qibla: Accurate and Free *** &#xAB; Prayer times &#xAE; Muslim Toolbox &#xBB; is an Android app for the Muslims all around the world. This app provides islamic prayer times (Salat) and the direction to the Qibla wherever you are in the world. --&gt; Accurate and exact Salat: - Shows the times for the Fajr, Sunrise, Dhuhr, Asr, Maghrib et Isha. --&gt; A quick and easy selection of the city: - Select your city manually amongst a list of 6 000 000 in 251 countries, or be located automatically thanks to your integrated GPS. - Memorize your favorite cities. --&gt; Configurable Calculation of the timetable: - Several methods of calculation (for Fajr and Isha). - Various juristic methods (for the Asr). - Adjust manually the twilight angle (for the Fajr and Isha). - Adjust manually the minutes for each. - Display the hours with the AM/PM format. --&gt; Adhan notifications: - Activate the notifications in order to be informed when it is time, so that you won&#x2019;t miss any prayer. - Select the azan for which you want to be warned. - Wake up to the sound of the alarm before the Fajr. --&gt; Direction of Mecca / Qibla : - Use the compass to know in which direction to pray. - Indication about the distance between your position and the position of the Mecca. --&gt; Rakats counter. --&gt; The others features: - A pretty neat GUI with a little touch of Islamic art.  - A help/support menu in case of a technical problem. - New features coming as the application is in constant evolution. For any questions, suggestions or bug report: a tutorial, a F.A.Q and a contact form are available on the application. The team of &#xAB; Prayer times &#xAE; Muslim Toolbox &#xBB; is aware of the importance of Salat in Islam. We provide you an useful Android application that will keep you informed about the exact hours of Salat throughout the year. Download and recommend this program to your friends and family. - Follow us on:  http://www.facebook.com/muslimtoolbox   http://www.twitter.com/muslimtoolbox https://plus.google.com/u/0/117058153069181744965/posts    Thank you in advance for your comments. May Allah preserve us and guide us all to the right path.&quot;,
+  &quot;dtp&quot;: &quot;May 23, 2015&quot;,
+  &quot;dtxt&quot;: &quot;5,000,000 - 10,000,000&quot;,
+  &quot;n&quot;: &quot;com.muslimtoolbox.app.android.prayertimes&quot;,
+  &quot;new&quot;: &quot;- Bug fix&quot;,
+  &quot;os&quot;: &quot;Varies with device&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;&quot;,
+  &quot;rate&quot;: 4.4,
+  &quot;rct&quot;: 56325,
+  &quot;sz&quot;: &quot;Varies with device&quot;,
+  &quot;t&quot;: &quot;Prayer times: Qibla &amp; Azan&quot;,
+  &quot;verc&quot;: &quot;7693&quot;,
+  &quot;id&quot;: &quot;com.muslimtoolbox.app.android.prayertimes-7693&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044572703498dd2a525968&quot;,
+  &quot;cadd&quot;: &quot;G1, 07, Sri Ranganatha Arcade, Bhuvaneswari Road,\nNext to Sri karu mari amma road, Whitefield, Bangalore, India - Pin: 560066&quot;,
+  &quot;cat&quot;: &quot;Casino&quot;,
+  &quot;crat&quot;: &quot;Teen&quot;,
+  &quot;crt&quot;: &quot;Mywavia Studios&quot;,
+  &quot;curl&quot;: &quot;/store/apps/dev?id=8815230470063088971&quot;,
+  &quot;dct&quot;: 5000000,
+  &quot;desc&quot;: &quot;Virtually Experience Live Casino with Classic Slots Royale - Slot Machines and Bonus games.  ABSOLUTELY FREE. NO PURCHASES AND NO REAL MONEY INVOLVED. Game Features :   &#x2022;  6 Paying Machines - Play three of them at the same time and experience Vegas. Just a swipe away to switch slots and win endlessly.   &#x2022;  The lovable bonus games - Jacks or Better Video Poker &amp; Offline Wheel of Fortune simulator.   &#x2022;  Live challenges with millions of players in tournaments.   &#x2022;  Multi Paylines - Bet Heavy playing 5 Paylines in pokies.   &#x2022;  Shop, to buy virtual items for yourself and your friends. Send, and Accept Gifts from your friends and loved ones in slots machine.   &#x2022;  Leader Board to view World wide and country wise rankings for virtual money and items. Hall of Fame lists players&apos; pic</pre>
 
-<p>There are  apps.</p>
+<table>
+ <tr>
+   <th>Title</th>
+   <th>Category</th>
+   <th>Download Count</th>
+   <th>Rating</th>
+ </tr>
+
+   <tr>
+       <td>KlipMix - Free Video Maker</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Prayer times: Qibla &amp; Azan</td>
+       <td>Lifestyle</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Slots Royale - Slot Machines</td>
+       <td>Casino</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Metal Soldiers</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Remote for Samsung TV</td>
+       <td>Media &amp; Video</td>
+       <td>5000000</td>
+       <td>3.6</td>
+   </tr>
+
+   <tr>
+       <td>Poop Rearing Simulator Mobile</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Desktop VisualizeR</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Screen Capture Shortcut Free</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>Storm (Live wallpaper)</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Rchat - Talk to Strangers</td>
+       <td>Communication</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>GO SMS PRO EMOJI PLUGIN</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>3.3</td>
+   </tr>
+
+   <tr>
+       <td>Lock Screen</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>WiFi File Transfer</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Change Hair And Eye Color</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Gun Strike 3D</td>
+       <td>Arcade</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Texas Holdem Poker</td>
+       <td>Card</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>100 Doors : RUNAWAY</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Lie Detector Voice - Simulator</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.4</td>
+   </tr>
+
+   <tr>
+       <td>Digital Clock Widget Xperia</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>AlarmDroid (alarm clock)</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Statuses for all occasions</td>
+       <td>Social</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Hangman for Spanish learners</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>LaLiga - Official App</td>
+       <td>Sports</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Empire Defense II</td>
+       <td>Strategy</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>ElectroDroid</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.7</td>
+   </tr>
+
+   <tr>
+       <td>Zombie Defense</td>
+       <td>Strategy</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>The Walking Dead Dead Yourself</td>
+       <td>Entertainment</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>hunting Jungle Animals</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Hipster Wallpapers</td>
+       <td>Lifestyle</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>250+ Solitaire Collection</td>
+       <td>Card</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>T&#xE9;l&#xE9; 7 Jours - Programme TV</td>
+       <td>Entertainment</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>LINE Bubble 2</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>LINE POP2</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>LINE PokoPoko</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Glam Doll Makeover - Chic SPA!</td>
+       <td>Educational</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Daily Bible</td>
+       <td>Books &amp; Reference</td>
+       <td>5000000</td>
+       <td>4.7</td>
+   </tr>
+
+   <tr>
+       <td>Mushroom Garden</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Mushroom Garden Seasons</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Device Info Live WallPaper</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Smart Lock Free (App/Photo)</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>body symbol</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>3.4</td>
+   </tr>
+
+   <tr>
+       <td>Jelly Blast-Delicious Trip</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>John GBA Lite - GBA emulator</td>
+       <td>Arcade</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>X-Ray Droid Scanner</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.1</td>
+   </tr>
+
+   <tr>
+       <td>X-Plane 9</td>
+       <td>Simulation</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Taichi Panda</td>
+       <td>Role Playing</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Sniper &amp; Killer 3D</td>
+       <td>Arcade</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Edit images and writing on img</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>ES File Explorer (1.5 Cupcake)</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>ALSong - Music Player &amp; Lyrics</td>
+       <td>Music &amp; Audio</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Voyage: Eurasia Roads</td>
+       <td>Racing</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Trial Xtreme 2 Racing Sport 3D</td>
+       <td>Racing</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Bubble Totem</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Real Table Tennis</td>
+       <td>Sports</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Volleyball Champions 3D 2014</td>
+       <td>Sports</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Emoji Art &amp; Puzzle - Fun&#x1F478;&#x1F48D;&#x1F466;</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Billboard Photo Frames</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Flowers Photo Frames</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Epson iPrint</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Ultimate MotoCross 2 Free</td>
+       <td>Racing</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Air Navy Fighters Lite</td>
+       <td>Simulation</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>F18 Carrier Landing Lite</td>
+       <td>Simulation</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Killer Bean Unleashed</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Prison Break: Lockdown (Free)</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Bubble Shooter Classic</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>aniPet Aquarium LiveWallpaper</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>100 Doors</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Fashion Doll - Girls Makeover</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Ice Queen - Magic Frozen Salon</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>GUN ZOMBIE : HELLGATE</td>
+       <td>Arcade</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Brain Wars</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>LINE I Love Coffee</td>
+       <td>Simulation</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>LINE MASS FISHING</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>LINE Dozer</td>
+       <td>Casino</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Sudoku Free</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>File Expert with Clouds</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>PicsPlay - Photo Editor</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>GO SMS Pro Theme Maker plug-in</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>4 Pics 1 Word Puzzle Plus</td>
+       <td>Word</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Shpock boot sale &amp; classifieds</td>
+       <td>Shopping</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Cut and Slice</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Emoji Keyboard-Cute &amp; Colorful</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>GO Note Widget</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Where&apos;s My Stuff? *Free*</td>
+       <td>Adventure</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>App Lock (Scanner Simulator)</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Personality Detector Prank</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.4</td>
+   </tr>
+
+   <tr>
+       <td>Photo Sketch : Pencil Sketch</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>3.6</td>
+   </tr>
+
+   <tr>
+       <td>HD Video Player Free</td>
+       <td>Media &amp; Video</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Glow Nails: Manicure Games&#x2122;</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Iron Knights</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>AIMP</td>
+       <td>Music &amp; Audio</td>
+       <td>5000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>Lost Android</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Escape the Prison Room</td>
+       <td>Puzzle</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>Lock Screen - Iphone Lock</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>GPS Route Finder</td>
+       <td>Tools</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Hi There</td>
+       <td>Social</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Transparent Screen by Camera</td>
+       <td>Entertainment</td>
+       <td>5000000</td>
+       <td>3.6</td>
+   </tr>
+
+   <tr>
+       <td>Photo Collage Art</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Earth Live Wallpaper</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>PicSay Pro Font Pack - A</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>&#xAE30;&#xD504;&#xD2F0;&#xCF58;</td>
+       <td>Entertainment</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>Scratch That Logo Quiz</td>
+       <td>Trivia</td>
+       <td>5000000</td>
+       <td>3.3</td>
+   </tr>
+
+   <tr>
+       <td>Ice Cream Maker- Cooking games</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.7</td>
+   </tr>
+
+   <tr>
+       <td>Krrish 3: The Game</td>
+       <td>Action</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>CYANOGEN GO Launcher EX Theme</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>GO Launcher EX UI5.0 theme</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Dead Shot Zombies</td>
+       <td>Arcade</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Talking Pocoyo Free</td>
+       <td>Entertainment</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Free Z Glass GO Keyboard Theme</td>
+       <td>Personalization</td>
+       <td>5000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Neon Blue GO Keyboard Theme</td>
+       <td>Productivity</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Speed Roads 3D</td>
+       <td>Racing</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>EDIT PHOTO WITH SQUARE FRAME</td>
+       <td>Photography</td>
+       <td>5000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Electric Screen Colorful Prank</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>3.5</td>
+   </tr>
+
+   <tr>
+       <td>NASA App</td>
+       <td>Education</td>
+       <td>5000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Cookie Clickers&#x2122;</td>
+       <td>Casual</td>
+       <td>5000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>AndroVid Video Editor</td>
+       <td>Media &amp; Video</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Unofficial Wiki Minecraft 2014</td>
+       <td>Books &amp; Reference</td>
+       <td>10000000</td>
+       <td>3.3</td>
+   </tr>
+
+   <tr>
+       <td>&#xBCA8;365 &#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xCEEC;&#xB7EC;&#xB9C1;</td>
+       <td>Music &amp; Audio</td>
+       <td>10000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>QR&#x30B3;&#x30FC;&#x30C9;&#x30EA;&#x30FC;&#x30C0;&#x30FC; EQS</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>3.6</td>
+   </tr>
+
+   <tr>
+       <td>Smart Keyboard Trial</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>RealCalc Scientific Calculator</td>
+       <td>Productivity</td>
+       <td>10000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>Xray Scan</td>
+       <td>Entertainment</td>
+       <td>10000000</td>
+       <td>2.9</td>
+   </tr>
+
+   <tr>
+       <td>Color Flashlight</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>GO Notifier</td>
+       <td>Communication</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Softonic Moba</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Vitamio Plugin ARMv7+NEON</td>
+       <td>Libraries &amp; Demo</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Lipix - Photo Collage &amp; Editor</td>
+       <td>Photography</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Enemy Strike</td>
+       <td>Action</td>
+       <td>10000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Okey</td>
+       <td>Board</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>LINE Rangers</td>
+       <td>Action</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>iKamasutra&#xAE; Lite Sex Positions</td>
+       <td>Books &amp; Reference</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>MX Player Codec (ARMv7)</td>
+       <td>Libraries &amp; Demo</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Transparent Screen Launcher</td>
+       <td>Entertainment</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Safe Gallery Free (Media Lock)</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Fake Call 2</td>
+       <td>Casual</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Christmas Live Wallpaper Free</td>
+       <td>Personalization</td>
+       <td>10000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Real Guitar Free</td>
+       <td>Music &amp; Audio</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Spanish Language - GO Keyboard</td>
+       <td>Productivity</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Free Glass GO Keyboard Theme</td>
+       <td>Personalization</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Speed Racing Ultimate Free</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>GS SHOP</td>
+       <td>Shopping</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Memory Booster - RAM Optimizer</td>
+       <td>Productivity</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>DragonFlight for Kakao</td>
+       <td>Arcade</td>
+       <td>10000000</td>
+       <td>4.6</td>
+   </tr>
+
+   <tr>
+       <td>Speed City Moto</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Nail Salon&#x2122;: Games for Girls</td>
+       <td>Casual</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Angry Gran RadioActive Run</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Tank Recon 3D (Lite)</td>
+       <td>Arcade</td>
+       <td>10000000</td>
+       <td>4.1</td>
+   </tr>
+
+   <tr>
+       <td>Pixel Gun 3D</td>
+       <td>Action</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Brain Dots</td>
+       <td>Puzzle</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>LINE WIND runner</td>
+       <td>Arcade</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>LINE Pokopang</td>
+       <td>Puzzle</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>LINE POP</td>
+       <td>Puzzle</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Bluelight Filter for Eye Care</td>
+       <td>Health &amp; Fitness</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Red Ball 4</td>
+       <td>Arcade</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Coupang - discount, mart</td>
+       <td>Shopping</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Blocky Roads</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Redline Rush</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Beat the Boss</td>
+       <td>Arcade</td>
+       <td>10000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>GO Calendar Widget</td>
+       <td>Productivity</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>GO Switch Widget</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Stopwatch &amp; Timer</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>&#xC560;&#xB2C8;&#xD321; &#xC0AC;&#xCC9C;&#xC131; for Kakao</td>
+       <td>Puzzle</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Bluetooth File Transfer</td>
+       <td>Communication</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Real City Car Driver 3D</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>3.4</td>
+   </tr>
+
+   <tr>
+       <td>Download Manager</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>Smart Voice Recorder</td>
+       <td>Music &amp; Audio</td>
+       <td>10000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>ZombieBooth</td>
+       <td>Entertainment</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Motorbike Driving Simulator 3D</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>3.8</td>
+   </tr>
+
+   <tr>
+       <td>MeituPic</td>
+       <td>Photography</td>
+       <td>10000000</td>
+       <td>4.5</td>
+   </tr>
+
+   <tr>
+       <td>MP3 Player</td>
+       <td>Music &amp; Audio</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>U+Box</td>
+       <td>Productivity</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Xray Scanner Prank</td>
+       <td>Entertainment</td>
+       <td>10000000</td>
+       <td>3.4</td>
+   </tr>
+
+   <tr>
+       <td>OLX Brasil - Comprar e Vender</td>
+       <td>Shopping</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>PicSay - Photo Editor</td>
+       <td>Photography</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>&#xC2A4;&#xB9C8;&#xD2B8;&#xCCAD;&#xAD6C;&#xC11C;</td>
+       <td>Lifestyle</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Road Smash: Crazy Racing!</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>HD Video Player</td>
+       <td>Media &amp; Video</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Music Player for Android</td>
+       <td>Music &amp; Audio</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>ES Task Manager(Task Killer)</td>
+       <td>Business</td>
+       <td>10000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Aworded (Apalabrados)</td>
+       <td>Word</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>Makeup Spa - Girls Games</td>
+       <td>Casual</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>Trial Xtreme 2 Winter</td>
+       <td>Racing</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Pool Mania</td>
+       <td>Casual</td>
+       <td>10000000</td>
+       <td>4.3</td>
+   </tr>
+
+   <tr>
+       <td>100 Doors 2015</td>
+       <td>Puzzle</td>
+       <td>10000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Analog Clock Live Wallpaper-7</td>
+       <td>Tools</td>
+       <td>10000000</td>
+       <td>4</td>
+   </tr>
+
+   <tr>
+       <td>Amazing Broken Display</td>
+       <td>Casual</td>
+       <td>10000000</td>
+       <td>3.9</td>
+   </tr>
+
+   <tr>
+       <td>myCalendar - Period Tracker</td>
+       <td>Health &amp; Fitness</td>
+       <td>50000000</td>
+       <td>4.7</td>
+   </tr>
+
+   <tr>
+       <td>SHAREit - Connect &amp; Transfer</td>
+       <td>Tools</td>
+       <td>50000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>MX Player</td>
+       <td>Media &amp; Video</td>
+       <td>100000000</td>
+       <td>4.4</td>
+   </tr>
+
+   <tr>
+       <td>Smart Connect</td>
+       <td>Tools</td>
+       <td>100000000</td>
+       <td>4.2</td>
+   </tr>
+
+   <tr>
+       <td>Samsung Push Service</td>
+       <td>Communication</td>
+       <td>500000000</td>
+       <td>4</td>
+   </tr>
+
+</table>
+
 <h2 id="12-find-apps-that-have-been-released-or-updated-this-month-september-2015">12- Find apps that have been released or updated this month (September 2015)?</h2>
 <p>Hint: You can use the $regex operator</p>
-<p><div class="mongodb"><h4>mongodb query</h4><pre><code></code></pre></div></p>
-<pre style="font-size:11px;line-height:1;max-height:300px;">&quot;&quot;</pre>
+<p><div class="mongodb"><h4>mongodb query</h4><pre><code>{ &quot;dtp&quot;: {&quot;$regex&quot;: &quot;^September.*2015&quot;} }</code></pre></div></p>
+<pre style="font-size:11px;line-height:1;max-height:300px;">[
+ {
+  &quot;_id&quot;: &quot;56044572703498dd2a5254d7&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;Shopping&quot;,
+  &quot;crat&quot;: &quot;Everyone&quot;,
+  &quot;crt&quot;: &quot;Listia&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=Listia&quot;,
+  &quot;dct&quot;: 1000000,
+  &quot;desc&quot;: &quot;Check out millions of FREE items other people are giving away nearby! Over 100 Million items have been traded for free on Listia! Listia is a mobile garage sale and yard sale marketplace like craigslist where you sell things you don&apos;t need and get stuff you want in return, for FREE. Earn credits by selling stuff for others to reuse, and use those credits to get stuff you really want, like Jewelry, Electronics, Clothing, Gadgets, Books, Toys, Gift Cards, Games and Coins. The more you give and sell, the more free things you can buy without spending money. How It Works: 1) Declutter - Sell all the things you don&apos;t use - from DVDs to Cell Phones, for free, like a mobile craigslist, yard sale or garage sale! 2) Earn Credits - Rack up credits when others buy your listings. 3) Reward Yourself - Discover and get stuff you&apos;ll love from other members or the Listia Rewards Store! The mobile app makes listing auctions to sell a snap. Simply take a photo with your device, add some details, and post it to Listia instantly. The Listia app will show you what nearby users are trading, selling &amp; giving away, let you buy and bid on things you want, and notify you when you&apos;re outbid or an item you&apos;re watching is ending. Next time you feel like listing things in the free section of craigslist or sell at a local garage or yard sale, give Listia a try and see all the cool things you can get!&quot;,
+  &quot;dtp&quot;: &quot;September 1, 2015&quot;,
+  &quot;dtxt&quot;: &quot;1,000,000 - 5,000,000&quot;,
+  &quot;n&quot;: &quot;com.listia.Listia&quot;,
+  &quot;new&quot;: &quot;* Improvements to credit buying * Bug fixes Please use in-app support if you encounter any problems. Give us a five-star review if you like the app. Enjoy! Listia updates our app regularly to give you the latest features. You can keep your app updated automatically by enabling the \&quot;Auto-update apps\&quot; setting in Google Play.&quot;,
+  &quot;os&quot;: &quot;4.0 and up&quot;,
+  &quot;pri&quot;: &quot;Free&quot;,
+  &quot;purl&quot;: &quot;https://www.google.com/url?q=http://www.listia.com/privacy&amp;sa=D&amp;usg=AFQjCNHQhm47L147Pf6QR0Jj9mVZocrSUw&quot;,
+  &quot;rate&quot;: 4.2,
+  &quot;rct&quot;: 25269,
+  &quot;sz&quot;: &quot;6.2M&quot;,
+  &quot;t&quot;: &quot;Listia - Get Free Stuff &amp; Sell&quot;,
+  &quot;verc&quot;: &quot;8865&quot;,
+  &quot;id&quot;: &quot;com.listia.Listia-8865&quot;
+ },
+ {
+  &quot;_id&quot;: &quot;56044572703498dd2a525682&quot;,
+  &quot;cadd&quot;: &quot;&quot;,
+  &quot;cat&quot;: &quot;News &amp; Magazines&quot;,
+  &quot;crat&quot;: &quot;Everyone&quot;,
+  &quot;crt&quot;: &quot;Ei DEVELOPER&quot;,
+  &quot;curl&quot;: &quot;/store/apps/developer?id=Ei+DEVELOPER&quot;,
+  &quot;dct&quot;: 10000,
+  &quot;desc&quot;: &quot;Dapatkan informasi seputar Lowongan Kerja secara cepat dan update, Lowongan Kerja Update ini memuat informasi lowongan pekerjaan dari beberapa sumber terpercaya dan populer seperti : JobsCDC Bursa Kerja Depnakertrans Career Builder ECC UGM Kedai Karir Klik Karir Dunia Karir Karir com Career Jet Loker Web Id JakJobs JobIndo Indoloker 123 Bursa Lowongan Kerja Jobs ID lowongan kerja bontang Aplikasi Informasi Lowongan Kerja Update memberikan anda informasi update tentang lowongan kerja yang tersedia. Lowongan Kerja diupdate setiap hari, berasal dari sumber-sumber terpercaya. Tersedia lowongan kerja dari berbagai disiplin Ilmu, berbagai perusahaan, baik perusahaan besar maupun kecil. Serta informasi lengkap lowongan kerja dari berbagai daerah. Dengan menggunakan aplikasi Lowongan Kerja Update ini Anda tidak perlu lagi membuka dan membaca banyak situs/website untuk mencari info lowongan pekerjaan terbaru. Fitu-fitur aplikasi Lowongan Kerja Update : 1. Update Informasi Lowongan Kerja yang Update secara realtime dari berbagai sumber dan situs populer  2. Notifikasi artikel baru setiap 4 jam (dapat di setting sesuai keinginan pengguna) 3. Membaca artikel secara offline setelah mendownload berita. 4. dapat mensetting berita lowongan yang ingin ditampilkan melalui explorer Aplikasi ini hanya merupakan alat pencarian dan menampilkan informasi lowongan kerja terbaru saja, kami tidak terlibat dalam semua proses yang berhubungan dengan perekrutan. Jika ada hal-hal yang ingin ditanyakan berkaitan dengan lowongan pekerjaan yang ada, Anda bisa menghubungi perusahaan yang menyediakan lowongan tersebut. Aplikasi ini secara default akan mensinkronisasi berita terbaru dari situs rujukan setiap 4 jam sekali, anda dapat mengatur settingan waktu dengan memilih setting - sync interval, atau mematikan fungsi ini dengan menghilangkan check pada Automatic background sync Silahkan berikan review untuk pengembangan aplikasi ini selanjutnya Mohon diperhatikan bahwa Lowongan Kerja Update tidak memungut biaya apapun kepada pencari kerja sebagai persyaratan untuk dapat diterima bekerja. Apabila terjadi perusahaan meminta anda untuk mengirimkan sejumlah uang untuk berbagai alasan. Lowongan Kerja Update menyatakan bahwa kami tidak bertanggung jawab atas kerugian yang diderita. Terima kasih.  Daerah Lowongan kerja : Aceh Bali Bangka Belitung Banten Bengkulu DKI Jakarta Gorontalo Jakarta Barat Jakarta Pusat Jakarta Raya Jakarta Selatan Jakarta Timur Jakarta Utara Jambi </pre>
 
-<p>There are  apps</p>
+<p>There are 3202 apps</p>
 
                     
                     </section>
@@ -1346,6 +3385,10 @@ The star rating of the first Evernote app is: 4.6</p>
 
     
     <script src="../../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
     
 
 <script>
